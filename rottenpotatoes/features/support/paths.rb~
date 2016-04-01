@@ -17,7 +17,7 @@ module NavigationHelpers
       root_path
 	
 	when /^the edit page for "(.*?)"$/
-	  edit_movie_path(Movie.find_by_title($1))
+	  edit_movie_path(Movie.where(title: "#{movie_title}").first)
 	
 	when /^the details page for "(.*?)"$/
 	  movie_path(Movie.find_by_title($1))
