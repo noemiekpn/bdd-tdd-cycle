@@ -1,8 +1,0 @@
-require 'spec_helper'
-
-describe MovieController, pending => true do
-  before :each do
-    @movie = Movie.new('Finding Nemo', 'G', '2003-05-03', 'Andrew Stanton')
-  end
-  
-end
