@@ -3201,3 +3201,4 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.haml within layouts/application (6.2ms)
 Completed 200 OK in 8.9ms (Views: 7.7ms | ActiveRecord: 0.2ms)
   [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
